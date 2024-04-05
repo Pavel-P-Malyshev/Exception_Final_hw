@@ -5,7 +5,11 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ContentDupEx {
-     public static void tryDuplicates(Person p, String fileName){
+     
+    
+    
+    //проверка на дублирование записей в файле, если такая запись уже есть - бросаем исключение
+    public static void tryDuplicates(Person p, String fileName){
         
       String newPerson=p.toString(); 
       try {

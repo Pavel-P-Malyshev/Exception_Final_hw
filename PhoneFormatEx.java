@@ -2,6 +2,8 @@ package hw;
 
 public class PhoneFormatEx {
     
+
+    //проверка формата телефона, проверяем что нет плюсов, дефисов, тире. Если есть - бросаем исключение
     public static void tryPhone(String phone){
         
         
