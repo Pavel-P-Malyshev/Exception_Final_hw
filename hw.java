@@ -11,6 +11,7 @@ public class hw {
         String data=scanner.nextLine();
         String[] input = data.split(" ");
         
+        //проверяем что введено не более шести блоков данных, каждый без пробелов, если нет - боросам исключение
         if(input.length>6)  throw new RuntimeException("No extra fields allowed except suggested 6!");
         
         
